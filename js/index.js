@@ -11,6 +11,7 @@ $(document).ready(function () {
     });
 
 
+
     $('body').on('submit', $('form'), function () {
         event.preventDefault();
         k = Number(data[0].value);
