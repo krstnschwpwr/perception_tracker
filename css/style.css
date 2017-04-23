@@ -1,0 +1,64 @@
+body {
+    background-color: #ffffff;
+    font-family: "Oxygen";
+    text-align: center;
+}
+canvas {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 3px;
+    border: 2px solid black;
+    background: black;
+}
+.container {
+    border-radius: 3px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+form {
+    width: 40%;
+    margin: 0 auto;
+}
+select, input {
+    margin: 0 auto;
+}
+input {
+    border: none !important;
+    text-transform: uppercase;
+
+}
+.center {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.submit {
+    margin-left: 3%;
+}
+.circle {
+    width: 100px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+strong {
+    margin-top: -100%;
+    display: block;
+}
+.circles {
+    margin-top: 4%;
+}
+.circles canvas{
+    border: none !important;
+    background: none !important;
+}
+.circle span {
+    display: block;
+    color: #aaa;
+    margin-top: 12px;
+}
