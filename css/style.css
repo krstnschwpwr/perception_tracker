@@ -11,12 +11,15 @@ canvas {
     border: 2px solid black;
     background: black;
 }
+h2{
+    margin-bottom: 10%;
+}
 .container {
     border-radius: 3px;
     width: 80%;
     margin: 0 auto;
     padding-top: 5%;
-    padding-bottom: 3%;
+    padding-bottom: 15%;
 }
 form {
     width: 40%;
@@ -51,7 +54,8 @@ strong {
     display: block;
 }
 .circles {
-    margin-top: 4%;
+    margin-top: 10%;
+    border-top: 1px solid lightgrey;
 }
 .circles canvas{
     border: none !important;
